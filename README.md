@@ -1,1 +1,1 @@
-# -vscode-mql
+# vscode-mql
