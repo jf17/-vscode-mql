@@ -1,10 +1,10 @@
 {
-    "for": {
-        "prefix": "for",
+    "from": {
+        "prefix": "from",
         "body": [
-            "for"
+            "from"
         ],
-        "description": "for relationship"
+        "description": "from relationship"
     },
     "to": {
         "prefix": "to",
@@ -12,6 +12,20 @@
             "to"
         ],
         "description": "to relationship"
+    },
+    "select": {
+        "prefix": "select",
+        "body": [
+            "select"
+        ],
+        "description": "select"
+    },
+    "where": {
+        "prefix": "where",
+        "body": [
+            "where"
+        ],
+        "description": "where"
     },
     "attribute": {
         "prefix": "attribute",
@@ -33,6 +47,13 @@
             "originator"
         ],
         "description": "Basic originator"
+    },
+    "id": {
+        "prefix": "id",
+        "body": [
+            "id"
+        ],
+        "description": "Basic id"
     },
     "type": {
         "prefix": "type",

@@ -9,29 +9,44 @@
 			"include": "#busID"
 		},
 		{
-			"include": "#teststr"
+			"include": "#operators"
 		},
 		{
-			"include": "#stringsdouble"
+			"include": "#types"
 		},
 		{
-			"include": "#busssss"
+			"include": "#strings-double"
+		},
+		{
+			"include": "#strings-single"
 		}
 	],
 	"repository": {
+		"types": {
+			"patterns": [
+				{
+					"name": "entity.name.class.mql",
+					"match": "\\b(attribute|name|type|originator|id)\\b"
+				}
+			]
+		},
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.mql",
-				"match": "\\b(for|to|attribute)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.mql",
+					"match": "\\b(from|to|select|where)\\b"
+				}
+			]
 		},
-		"teststr": {
-			"patterns": [{
-				"name": "keyword.operator.new.mql",
-				"match": "([+]|[-]|([=]{2}))"
-			}]
+		"operators": {
+			"patterns": [
+				{
+					"name": "keyword.operator.new.mql",
+					"match": "(print|[+]|[-]|([=]{2}))"
+				}
+			]
 		},
-		"stringsdouble": {
+		"strings-double": {
 			"name": "string.quoted.double.mql",
 			"begin": "\"",
 			"end": "\"",
@@ -42,7 +57,7 @@
 				}
 			]
 		},
-		"busssss": {
+		"strings-single": {
 			"name": "string.quoted.single.mql",
 			"begin": "'",
 			"end": "'",
@@ -54,10 +69,12 @@
 			]
 		},
 		"busID": {
-			"patterns": [{
-				"name": "constant.numeric.mql",
-				"match": "\\b([0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9])\\b"
-			}]
+			"patterns": [
+				{
+					"name": "constant.numeric.mql",
+					"match": "\\b([0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9])\\b"
+				}
+			]
 		}
 	},
 	"scopeName": "source.mql"
