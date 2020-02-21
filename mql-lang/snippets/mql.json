@@ -1,0 +1,32 @@
+{
+    "for": {
+       "prefix": "for",
+       "body": [
+           "for"
+       ],
+       "description": "For Loop"
+   },
+   "attribute": {
+       "prefix": "attribute",
+       "body": [
+           "attribute[${1:var}]"
+       ],
+       "description": "Attribute"
+   },
+   "name": {
+    "prefix": "name",
+    "body": [
+        "name"
+    ],
+    "description": "Basic Name"
+},
+"type": {
+ "prefix": "type",
+ "body": [
+     "type"
+ ],
+ "description": "Basic Type"
+}
+
+  
+}

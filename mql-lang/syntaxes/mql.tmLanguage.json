@@ -1,0 +1,64 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "MQL",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#busID"
+		},
+		{
+			"include": "#teststr"
+		},
+		{
+			"include": "#stringsdouble"
+		},
+		{
+			"include": "#busssss"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.mql",
+				"match": "\\b(for|to|attribute)\\b"
+			}]
+		},
+		"teststr": {
+			"patterns": [{
+				"name": "keyword.operator.new.mql",
+				"match": "([+]|[-]|([=]{2}))"
+			}]
+		},
+		"stringsdouble": {
+			"name": "string.quoted.double.mql",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mql",
+					"match": "\\\\."
+				}
+			]
+		},
+		"busssss": {
+			"name": "string.quoted.single.mql",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.mql",
+					"match": "\\\\."
+				}
+			]
+		},
+		"busID": {
+			"patterns": [{
+				"name": "constant.numeric.mql",
+				"match": "\\b([0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9][.][0-9]*[0-9])\\b"
+			}]
+		}
+	},
+	"scopeName": "source.mql"
+}
