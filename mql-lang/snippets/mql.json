@@ -1,32 +1,58 @@
 {
     "for": {
-       "prefix": "for",
-       "body": [
-           "for"
-       ],
-       "description": "For Loop"
-   },
-   "attribute": {
-       "prefix": "attribute",
-       "body": [
-           "attribute[${1:var}]"
-       ],
-       "description": "Attribute"
-   },
-   "name": {
-    "prefix": "name",
-    "body": [
-        "name"
-    ],
-    "description": "Basic Name"
-},
-"type": {
- "prefix": "type",
- "body": [
-     "type"
- ],
- "description": "Basic Type"
-}
-
-  
+        "prefix": "for",
+        "body": [
+            "for"
+        ],
+        "description": "for relationship"
+    },
+    "to": {
+        "prefix": "to",
+        "body": [
+            "to"
+        ],
+        "description": "to relationship"
+    },
+    "attribute": {
+        "prefix": "attribute",
+        "body": [
+            "attribute[${1:var}]"
+        ],
+        "description": "Attribute"
+    },
+    "name": {
+        "prefix": "name",
+        "body": [
+            "name"
+        ],
+        "description": "Basic Name"
+    },
+    "originator": {
+        "prefix": "originator",
+        "body": [
+            "originator"
+        ],
+        "description": "Basic originator"
+    },
+    "type": {
+        "prefix": "type",
+        "body": [
+            "type"
+        ],
+        "description": "Basic Type"
+    },
+    "print": {
+        "prefix": "print",
+        "body": [
+            "print"
+        ],
+        "description": "print operator"
+    },
+    "bus": {
+        "prefix": "bus",
+        "body": [
+            "bus"
+        ],
+        "description": "bus type"
+    }
 }
