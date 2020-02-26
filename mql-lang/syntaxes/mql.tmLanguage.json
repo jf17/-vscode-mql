@@ -6,11 +6,17 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#selectors"
+		},
+		{
 			"include": "#busID"
 		},
 		{
 			"include": "#operators"
 		},
+		{
+            "include": "#comments"
+        },
 		{
 			"include": "#types"
 		},
@@ -26,7 +32,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.mql",
-					"match": "\\b(attribute|name|type|originator|id)\\b"
+					"match": "\\b(attribute|name|type|originator|id|description|originated)\\b"
 				}
 			]
 		},
@@ -34,7 +40,25 @@
 			"patterns": [
 				{
 					"name": "keyword.control.mql",
-					"match": "\\b(from|to|select|where)\\b"
+					"match": "\\b(from|to|rel|fromrel|select|where)\\b"
+				}
+			]
+		},
+		"comments": {
+            "name": "comment.line.mql",
+            "begin": "#",
+            "end": "\n",
+            "captures": {
+                "1": {
+                    "name": "punctuation.definition.comment.mql"
+                }
+            }
+        },
+		"selectors": {
+			"patterns": [
+				{
+					"name": "support.function.mql",
+					"match": "\\b(select|where|filter)\\b"
 				}
 			]
 		},
@@ -42,7 +66,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "(print|[+]|[-]|([=]{2}))"
+					"match": "(print|add|temp|query|connection|connect|dump|limit|bus|[+]|[-]|!=|==)"
 				}
 			]
 		},

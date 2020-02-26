@@ -69,6 +69,41 @@
         ],
         "description": "print operator"
     },
+    "query": {
+        "prefix": "query",
+        "body": [
+            "query"
+        ],
+        "description": "query operator"
+    },
+    "temp": {
+        "prefix": "temp",
+        "body": [
+            "temp"
+        ],
+        "description": "temp operator"
+    },
+    "connect": {
+        "prefix": "connect",
+        "body": [
+            "connect"
+        ],
+        "description": "connect operator"
+    },
+    "add": {
+        "prefix": "add",
+        "body": [
+            "add"
+        ],
+        "description": "add operator"
+    },
+    "dump": {
+        "prefix": "dump",
+        "body": [
+            "dump"
+        ],
+        "description": "dump operator"
+    },
     "bus": {
         "prefix": "bus",
         "body": [
