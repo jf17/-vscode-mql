@@ -34,6 +34,13 @@
         ],
         "description": "Attribute"
     },
+    "format": {
+        "prefix": "format",
+        "body": [
+            "format[${1:var}]"
+        ],
+        "description": "format"
+    },
     "name": {
         "prefix": "name",
         "body": [
@@ -62,6 +69,27 @@
         ],
         "description": "Basic Type"
     },
+    "current": {
+        "prefix": "current",
+        "body": [
+            "current"
+        ],
+        "description": "Basic current"
+    },
+    "modified": {
+        "prefix": "modified",
+        "body": [
+            "modified"
+        ],
+        "description": "Basic modified"
+    },
+    "owner": {
+        "prefix": "owner",
+        "body": [
+            "owner"
+        ],
+        "description": "Basic owner"
+    },
     "print": {
         "prefix": "print",
         "body": [
@@ -82,13 +110,6 @@
             "temp"
         ],
         "description": "temp operator"
-    },
-    "connect": {
-        "prefix": "connect",
-        "body": [
-            "connect"
-        ],
-        "description": "connect operator"
     },
     "add": {
         "prefix": "add",

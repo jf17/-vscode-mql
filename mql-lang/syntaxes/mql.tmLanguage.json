@@ -16,12 +16,12 @@
 		},
 		{
             "include": "#comments"
+		},
+		{
+            "include": "#variables"
         },
 		{
 			"include": "#types"
-		},
-		{
-			"include": "#strings-double"
 		},
 		{
 			"include": "#strings-single"
@@ -32,7 +32,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.mql",
-					"match": "\\b(attribute|name|type|originator|id|description|originated)\\b"
+					"match": "\\b(attribute|format|name|type|originator|id|description|originated|current|owner|modified|fromtype|totype)\\b"
 				}
 			]
 		},
@@ -41,6 +41,14 @@
 				{
 					"name": "keyword.control.mql",
 					"match": "\\b(from|to|rel|fromrel|select|where)\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "constant.regexp.mql",
+					"match": "\\b(bus|connection|relationship)\\b"
 				}
 			]
 		},
@@ -66,18 +74,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "(print|add|temp|query|connection|connect|dump|limit|bus|[+]|[-]|!=|==)"
-				}
-			]
-		},
-		"strings-double": {
-			"name": "string.quoted.double.mql",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.mql",
-					"match": "\\\\."
+					"match": "(print|add|temp|query|dump|limit|[+]|[-]|!=|==|>=|<=|>|<|&&|[|]{2}|AND|OR|~~)"
 				}
 			]
 		},
