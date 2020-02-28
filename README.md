@@ -7,5 +7,5 @@ vsce package
 
 install Linux:
 ```sh
-code --install-extension mql-lang-0.0.33.vsix
+code --install-extension mql-lang-0.0.38.vsix
 ```
