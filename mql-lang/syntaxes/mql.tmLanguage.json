@@ -6,9 +6,6 @@
 			"include": "#keywords"
 		},
 		{
-			"include": "#selectors"
-		},
-		{
 			"include": "#busID"
 		},
 		{
@@ -40,7 +37,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.mql",
-					"match": "\\b(from|to|rel|fromrel|select|where)\\b"
+					"match": "\\b(from|to|rel|fromrel)\\b"
 				}
 			]
 		},
@@ -48,7 +45,7 @@
 			"patterns": [
 				{
 					"name": "constant.regexp.mql",
-					"match": "\\b(bus|connection|relationship)\\b"
+					"match": "\\b(bus|connection|relationship|policy)\\b"
 				}
 			]
 		},
@@ -62,19 +59,11 @@
                 }
             }
         },
-		"selectors": {
-			"patterns": [
-				{
-					"name": "support.function.mql",
-					"match": "\\b(select|where|filter)\\b"
-				}
-			]
-		},
 		"operators": {
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "(print|add|temp|query|dump|limit|[+]|[-]|!=|==|>=|<=|>|<|&&|[|]{2}|AND|OR|~~)"
+					"match": "(select|where|filter|print|add|temp|query|dump|limit|[+]|[-]|!=|==|>=|<=|>|<|&&|[|]{2}|AND|OR|~~)"
 				}
 			]
 		},
