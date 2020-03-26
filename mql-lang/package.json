@@ -2,7 +2,7 @@
     "name": "mql-lang",
     "displayName": "MQL (Matrix Query Language)",
     "description": "Syntax highlighting for Enovia MQL Queries MQL (Matrix Query Language)",
-    "version": "0.0.38",
+    "version": "0.0.42",
     "publisher": "jf17",
     "repository": "https://github.com/jf17/vscode-mql",
     "engines": {
