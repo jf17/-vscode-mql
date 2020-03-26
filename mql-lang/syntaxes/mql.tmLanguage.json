@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.mql",
-					"match": "\\b(attribute|format|name|type|originator|id|description|originated|current|owner|modified|fromtype|totype)\\b"
+					"match": "\\b(attribute|format|name|type|originator|id|description|originated|current|owner|modified|fromtype|totype|locked)\\b"
 				}
 			]
 		},
@@ -63,7 +63,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "(select|where|filter|print|add|temp|query|dump|limit|[+]|[-]|!=|==|>=|<=|>|<|&&|[|]{2}|AND|OR|~~)"
+					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~)\\b"
 				}
 			]
 		},
