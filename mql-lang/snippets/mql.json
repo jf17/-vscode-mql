@@ -111,6 +111,76 @@
         ],
         "description": "temp operator"
     },
+    "on": {
+        "prefix": "on",
+        "body": [
+            "on"
+        ],
+        "description": "enum"
+    },
+    "off": {
+        "prefix": "off",
+        "body": [
+            "off"
+        ],
+        "description": "enum"
+    },
+    "trigger": {
+        "prefix": "trigger",
+        "body": [
+            "trigger"
+        ],
+        "description": "trigger operator"
+    },
+    "context": {
+        "prefix": "context",
+        "body": [
+            "context"
+        ],
+        "description": "context operator"
+    },
+    "set": {
+        "prefix": "set",
+        "body": [
+            "set"
+        ],
+        "description": "set operator"
+    },
+    "push": {
+        "prefix": "push",
+        "body": [
+            "push"
+        ],
+        "description": "push operator"
+    },
+    "pop": {
+        "prefix": "pop",
+        "body": [
+            "pop"
+        ],
+        "description": "pop operator"
+    },
+    "modify": {
+        "prefix": "modify",
+        "body": [
+            "modify"
+        ],
+        "description": "modify operator"
+    },
+    "user": {
+        "prefix": "user",
+        "body": [
+            "user"
+        ],
+        "description": "user operator"
+    },
+    "pass": {
+        "prefix": "pass",
+        "body": [
+            "pass"
+        ],
+        "description": "pass operator"
+    },
     "add": {
         "prefix": "add",
         "body": [
