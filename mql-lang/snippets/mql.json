@@ -188,6 +188,34 @@
         ],
         "description": "add operator"
     },
+    "mod": {
+        "prefix": "mod",
+        "body": [
+            "mod"
+        ],
+        "description": "mod operator"
+    },
+    "create": {
+        "prefix": "create",
+        "body": [
+            "create"
+        ],
+        "description": "create operator"
+    },
+    "action": {
+        "prefix": "action",
+        "body": [
+            "action"
+        ],
+        "description": "action operator"
+    },
+    "input": {
+        "prefix": "input",
+        "body": [
+            "input"
+        ],
+        "description": "input operator"
+    },
     "exec": {
         "prefix": "exec",
         "body": [
