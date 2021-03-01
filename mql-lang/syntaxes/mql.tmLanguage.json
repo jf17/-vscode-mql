@@ -45,7 +45,7 @@
 			"patterns": [
 				{
 					"name": "constant.regexp.mql",
-					"match": "\\b(bus|context|connection|relationship|policy|action)\\b"
+					"match": "\\b(bus|context|connection|relationship|policy|action|prog|trigger)\\b"
 				}
 			]
 		},
@@ -63,7 +63,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~|set|trigger|push|pop|modify|user|pass|exec|prog|mod|create)\\b"
+					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~|set|push|pop|modify|user|pass|exec|mod|create)\\b"
 				}
 			]
 		},
