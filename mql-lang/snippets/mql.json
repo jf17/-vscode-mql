@@ -188,6 +188,20 @@
         ],
         "description": "add operator"
     },
+    "exec": {
+        "prefix": "exec",
+        "body": [
+            "exec"
+        ],
+        "description": "exec operator"
+    },
+    "prog": {
+        "prefix": "prog",
+        "body": [
+            "prog"
+        ],
+        "description": "prog operator"
+    },
     "dump": {
         "prefix": "dump",
         "body": [
