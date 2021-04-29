@@ -2,16 +2,16 @@
     "from": {
         "prefix": "from",
         "body": [
-            "from"
+            "from[${1:var}]"
         ],
-        "description": "from relationship"
+        "description": "from"
     },
     "to": {
         "prefix": "to",
         "body": [
-            "to"
+            "to[${1:var}]"
         ],
-        "description": "to relationship"
+        "description": "to"
     },
     "select": {
         "prefix": "select",
