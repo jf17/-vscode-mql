@@ -63,7 +63,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~|set|push|pop|modify|user|pass|exec|mod|create)\\b"
+					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~|set|push|pop|modify|user|pass|exec|mod|create|connect)\\b"
 				}
 			]
 		},

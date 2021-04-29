@@ -20,6 +20,13 @@
         ],
         "description": "select"
     },
+    "connect": {
+        "prefix": "connect",
+        "body": [
+            "connect"
+        ],
+        "description": "connect"
+    },
     "where": {
         "prefix": "where",
         "body": [
