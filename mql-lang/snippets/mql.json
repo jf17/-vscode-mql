@@ -27,6 +27,27 @@
         ],
         "description": "connect"
     },
+    "delete": {
+        "prefix": "delete",
+        "body": [
+            "delete"
+        ],
+        "description": "delete"
+    },
+    "promote": {
+        "prefix": "promote",
+        "body": [
+            "promote"
+        ],
+        "description": "promote"
+    },
+    "demote": {
+        "prefix": "demote",
+        "body": [
+            "demote"
+        ],
+        "description": "demote"
+    },
     "where": {
         "prefix": "where",
         "body": [
@@ -40,6 +61,13 @@
             "attribute[${1:var}]"
         ],
         "description": "Attribute"
+    },
+    "history": {
+        "prefix": "history",
+        "body": [
+            "history"
+        ],
+        "description": "history"
     },
     "format": {
         "prefix": "format",
