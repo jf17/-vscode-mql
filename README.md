@@ -1,5 +1,6 @@
 # vscode-mql
 
+https://code.visualstudio.com/api/working-with-extensions/publishing-extension
 
 create build:
 ```sh
