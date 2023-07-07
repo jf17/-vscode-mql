@@ -29,7 +29,7 @@
 			"patterns": [
 				{
 					"name": "entity.name.class.mql",
-					"match": "\\b(attribute|format|name|input|type|originator|id|description|originated|current|owner|modified|fromtype|totype|locked|on|off|history)\\b"
+					"match": "\\b(attribute|format|name|input|type|originator|id|description|originated|current|policy|owner|modified|fromtype|totype|locked|on|off|history)\\b"
 				}
 			]
 		},
@@ -45,7 +45,7 @@
 			"patterns": [
 				{
 					"name": "constant.regexp.mql",
-					"match": "\\b(bus|context|connection|relationship|policy|action|prog|trigger)\\b"
+					"match": "\\b(bus|context|connection|relationship|action|prog|trigger)\\b"
 				}
 			]
 		},
@@ -63,7 +63,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.new.mql",
-					"match": "\\b(select|where|filter|print|add|temp|query|dump|limit|AND|OR|~~|set|push|pop|modify|user|pass|exec|mod|create|connect|delete|promote|demote)\\b"
+					"match": "\\b(select|where|filter|print|add|temp|query|dump|output|limit|AND|OR|~~|set|push|pop|modify|user|pass|exec|mod|create|connect|delete|promote|demote)\\b"
 				}
 			]
 		},
